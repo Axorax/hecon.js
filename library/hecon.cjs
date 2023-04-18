@@ -1,0 +1,1 @@
+const hecon={decode:e=>(e+"").replace(/&#\d+;/gm,function(e){return String.fromCharCode(e.match(/\d+/gm)[0])}),encode(e,r=!1){if(r)return e.replace(/./gm,function(e){return e.match(/[a-z0-9\s]+/i)?e:"&#"+e.charCodeAt(0)+";"});for(var n=[],o=e.length-1;o>=0;o--)n.unshift(["&#",e[o].charCodeAt(),";"].join(""));return n.join("")}};module.exports=hecon

@@ -1,0 +1,29 @@
+{
+  "name": "hecon",
+  "version": "1.0.0",
+  "description": "HTML Entity Converter",
+  "main": "hecon.js",
+  "exports": {
+    "import": "./hecon.js",
+    "require": "./hecon.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/hecon.js.git"
+  },
+  "keywords": [
+    "hecon",
+    "html",
+    "html-entity",
+    "html-entities",
+    "html-entity-converter",
+    "html-entities-converter"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/hecon.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/hecon.js#readme"
+}
